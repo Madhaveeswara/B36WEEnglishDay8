@@ -25,11 +25,11 @@ console.log("asianCountriesResult ::",asianCountriesResult);
 /******************************************************************** */
 
 //b.Get all the countries with a population of less than 2 lakhs using Filter function
-let countriesWith2LakhsPopulation = countriesData.filter(
+let countriesWithLessThan2LakhsPopulation = countriesData.filter(
     (element) => element.population < 200000
 );
 
-console.log("countriesWith2LakhsPopulation ::",countriesWith2LakhsPopulation);
+console.log("countriesWithLessThan2LakhsPopulation ::",countriesWithLessThan2LakhsPopulation);
 
 
 /******************************************************************** */
